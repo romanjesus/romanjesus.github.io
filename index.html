@@ -10,10 +10,17 @@
       background-position: 0px -140px;
     }
     a {
-      color: white;
+      color: black;
     }
+    a.nav_bar {
+      color: white;
+   }
     h1 {
       font-size: 40px;
+      color:white;
+    }
+    span {
+      background: rgba(0,0,0,0.5);
     }
     h2 {
       font-size: 20px;
@@ -59,15 +66,35 @@
   <header>
   <a href="http://imgur.com/R6PY3TI"><img src="http://i.imgur.com/R6PY3TI.jpg" title="source: imgur.com" /></a>
     <img src="">
-    <h1>Jesus Roman</h1>
-    <ul>
-      <li><a href="https://www.linkedin.com/in/romanjesus">LinkedIn Profile</a></li>
-      <li><a href="">About</a></li>
-      <li><a href="https://www.facebook.com/JesusAlexisRoman">Facebook</a></li>
+    <h1><span>Jesus Roman<span></h1>
+    <ul class ="nav_bar">
+      <li><a class ="nav_bar" href="https://www.linkedin.com/in/romanjesus">LinkedIn Profile</a></li>
+      <li><a class ="nav_bar" href="../aboutme.html">About Me</a></li>
+      <li><a class ="nav_bar" href="https://www.facebook.com/JesusAlexisRoman">Facebook</a></li>
     </ul>
   </header>
 
+<div>
+  <article>
+    <h2>Education</h2>
+      <p>Northwestern University: Bachelor's Degree (June 2013)</p>
+      <p> Major: Political Science, Minors: French, Business </p>
+  </article>
+</div>
 
+<hr>
 
+<div>
+  <article>
+    <h2>Work Experience</h2>
+      <h3><a href="https://www.avant.com/">Avant</a></h3>
+      <h4>Senior Analyst in Marketing Finance</h4>
+      <br>
+      <h3><a href="http://www.beghouconsulting.com/">Beghou Consulting</a></h3>
+      <h4>Associate Consultant</h4>
+    </article>
+</div>
+
+<hr>
 
 </body>
