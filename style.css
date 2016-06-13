@@ -1,0 +1,83 @@
+  header {
+      text-align: center;
+      background: url('http://i.imgur.com/VDkZUYs.jpg');
+      background-size: cover;
+      color: white;
+      background-position: 0px -140px;
+    }
+    a {
+      color: black;
+    }
+    a.nav_bar {
+      color: white;
+   }
+    a:visited {
+      color: orange;
+    }
+    a:hover {
+      color: yellow;
+    }
+   ul.nav_bar {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+   }
+
+    h1 {
+      font-size: 40px;
+      color:white;
+    }
+    span {
+      background: rgba(0,0,0,0.5);
+    }
+    h2 {
+      font-size: 20px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+
+    li.nav {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+      font-family: Helvetica;
+    }
+
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    p {
+    font-size: 15px;
+    }
+    button {
+     font-size: 20px;
+     text-align: center;
+    }
+
+      li {
+        padding: 5px;
+        display: block;
+      }
+
+
+    .center {
+      margin: 0 auto;
+      max-width: 500px;
+      padding: 20px;
+    }
+
+    #footer {
+      margin: 0 auto;
+      text-align: center;
+      max-width: 500px;
+      padding: 20px;
+    }
+
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
